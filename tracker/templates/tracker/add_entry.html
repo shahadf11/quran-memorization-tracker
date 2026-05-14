@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Entry</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/surahs/">Surahs List</a>
+        <a href="/progress/">Progress</a>
+        <a href="/add-entry/">Add Entry</a>
+    </div>
+
+    <div class="container">
+
+        <div class="hero">
+
+            <h1>Add Memorization Entry</h1>
+
+            <p>
+                Use this form to add a new Quran memorization entry.
+            </p>
+
+            <form>
+
+                <label>Surah Name</label>
+                <input type="text" placeholder="Enter surah name">
+
+                <label>From Ayah</label>
+                <input type="number" placeholder="Starting ayah">
+
+                <label>To Ayah</label>
+                <input type="number" placeholder="Ending ayah">
+
+                <label>Date</label>
+                <input type="date">
+
+                <label>Notes</label>
+                <textarea rows="4" placeholder="Write your notes here"></textarea>
+
+                <button type="submit">Save Entry</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Quran Memorization Tracker | Simple Django Project</p>
+    </footer>
+
+</body>
+</html>

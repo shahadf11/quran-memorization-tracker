@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/surahs/">Surahs List</a>
+        <a href="/progress/">Progress</a>
+        <a href="/add-entry/">Add Entry</a>
+    </div>
+
+    <div class="container">
+
+        <div class="hero">
+            <h1>Memorization Progress</h1>
+
+            <p>
+                This page gives a simple overview of the memorization progress.
+            </p>
+
+            <div class="cards">
+                <div class="small-card">
+                    <h2>5</h2>
+                    <p>Completed Surahs</p>
+                </div>
+
+                <div class="small-card">
+                    <h2>3</h2>
+                    <p>In Progress</p>
+                </div>
+
+                <div class="small-card">
+                    <h2>10</h2>
+                    <p>Not Started</p>
+                </div>
+            </div>
+
+            <div class="progress-box">
+                <p>Overall Progress</p>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <p>35% completed</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+         <p>Quran Memorization Tracker | Simple Django Project</p>
+    </footer>
+</body>
+</html>

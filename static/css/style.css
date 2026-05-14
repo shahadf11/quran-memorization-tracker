@@ -1,0 +1,202 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    color: #333;
+    background-image: linear-gradient(
+        rgba(247, 251, 248, 0.35),
+        rgba(247, 251, 248, 0.35)
+    ), url("../images/islamic-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #2d6a4f;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #40916c;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.navbar a {
+    margin-right: 28px;
+    color: #2d6a4f;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+.container {
+    width: 85%;
+    margin: 40px auto;
+}
+
+.navbar {
+    background-color: #d8f3dc;
+    padding: 18px 40px;
+    border-bottom: 3px solid #f8c8dc;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color: #2d6a4f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: rgba(248, 246, 235, 0.82);
+    padding: 40px;
+    border-radius: 18px;
+    border-left: 8px solid #f8c8dc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+.card {
+    background-color: white;
+    padding: 22px;
+    margin: 18px 0;
+    border-radius: 16px;
+    border: 1px solid #d8f3dc;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.small-card {
+    background-color: rgba(248, 246, 235, 0.84);
+    width: 220px;
+    padding: 20px;
+    border-radius: 16px;
+    border-top: 6px solid #f8c8dc;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+th {
+    background-color: #b7e4c7;
+    color: #1b4332;
+}
+
+.status-completed {
+    color: #2d6a4f;
+    font-weight: bold;
+}
+
+.status-progress {
+    color: #d63384;
+    font-weight: bold;
+}
+
+.status-not {
+    color: #777;
+    font-weight: bold;
+}
+
+form {
+    background-color: rgba(248, 246, 235, 0.88);
+    padding: 25px;
+    width: 420px;
+    border-radius: 16px;
+    border: 1px solid #e8dcc2;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #74c69d;
+    color: white;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #52b788;
+}
+
+.progress-box {
+    margin-top: 25px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 18px;
+    background-color: #eee8d8;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    width: 35%;
+    height: 100%;
+    background-color: #95d5b2;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    color: #2d6a4f;
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 18px;
+    color: #2d6a4f;
+    background-color: rgba(248, 246, 235, 0.78);
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #d63384;
+}
+
+.small-card:hover {
+    transform: translateY(-4px);
+}
+
+.small-card {
+    transition: 0.3s;
+}
