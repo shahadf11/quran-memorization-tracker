@@ -27,3 +27,19 @@ Quran Memorization Tracker is a simple Django web application that helps people 
 
 ```bash
 python manage.py runserver
+```
+
+
+## Application Screenshots
+
+### Home Page
+![Home Page](Screenshots/Home%20Page.png)
+
+### Surahs List
+![Surahs List](Screenshots/Surahs%20List.png)
+
+### Memorization Progress
+![Memorization Progress](Screenshots/Memorization%20Progress.png)
+
+### Add Memorization Entry
+![Add Memorization Entry](Screenshots/Add%20Memorization%20Entry.png)
