@@ -23,11 +23,37 @@ Quran Memorization Tracker is a simple Django web application that helps people 
 - HTML
 - CSS
 
+
 ## How to Run the Project
 
-```bash
-python manage.py runserver
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shahadf11/quran-memorization-tracker.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd quran-memorization-tracker
+   ```
+
+3. Install Django:
+   ```bash
+   pip install django==5.2.14
+   ```
+
+4. Apply database migrations:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+6. Open in your browser:
+   http://127.0.0.1:8000/
+
 
 
 ## Application Screenshots
